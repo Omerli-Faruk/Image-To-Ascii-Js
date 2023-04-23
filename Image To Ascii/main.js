@@ -45,7 +45,7 @@ function imageToAscii(img, ctx) {
                 const r = pixelData[i];
                 const g = pixelData[i + 1];
                 const b = pixelData[i + 2];
-                // Parlaklığı hesaplayın (R + G + B) / 3.
+                // Calculate brightness (R + G + B) / 3.
                 const brightness = (r + g + b) / 3;
                 brightnessSum += brightness;
             }
